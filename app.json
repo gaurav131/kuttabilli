@@ -4,10 +4,10 @@
     "slug": "kutta_billi_tracker",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/kuttabilli_logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/kuttabilli_logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,22 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/bbbb.jpeg",
+        "backgroundColor": "#ffffff",
+        "package": "com.example.kutta_billi_tracker",
+        "googleMapsApiKey": "AIzaSyALmI0BDNP1ISCKWNrU68ytzAsaVsIC2bc"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/kuttabilli_logo.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow utta_billi_tracker to use your location."
+        }
+      ]
+    ]
   }
 }
